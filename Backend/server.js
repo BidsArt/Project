@@ -23,7 +23,7 @@ const port = process.env.port || 3000;
 // server is listening on port process.env.port or 3000
 con.connect(function (err) {
   if (err) throw err;
-  app.listen(port, () => console.log(`Server running on port ${port}`));
   console.log("Connected to The DB of BidsArt!");
+  app.listen(port, () => console.log(`Server running on port ${port}`));
 });
  
